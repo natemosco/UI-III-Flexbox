@@ -64,6 +64,9 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.wholePage{
+	margin: 2% 5% 1% 5%;
+}
 header{
 	display:flex;
 	justify-content: space-evenly;
@@ -89,9 +92,29 @@ header{
 	justify-content: space-around;
 
 }
-section.topPage{
+/* section.topPage{
 	display:flex;
 	justify-content: flex-start; 
 	flex-wrap: wrap;
-	width:90%
+	width:90%;
+	padding-top: 3%
+	
+}
+.topPage h1{
+	font-size: 20px;
+} */
+section.mainBody{
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	/* align-content: center; */
+	
+
+}
+.productType{
+	background-color: rgba(250, 235, 215, 0.892);
+	border: 2px solid rgb(19, 5, 5);
+	width: 45%;
+	margin:1% 5% 0 0;
+	padding:1%;
 }
