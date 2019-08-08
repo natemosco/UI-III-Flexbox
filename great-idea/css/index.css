@@ -88,7 +88,7 @@ header{
 	justify-content: flex-end;
 }
 .banner div img{
-	width:95%;
+	width:100%;
 }
 section.topPage{
 	display:flex;
@@ -105,18 +105,19 @@ section.mainBody{
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	align-content: center;
+	align-content: space-between;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 	padding: 1% 0 2% 0;
 	width:100%;
+	height: 750px;
 }
 .productType{
 	background-color: rgba(233, 229, 223, 0.933);
 	border: 2px solid rgb(19, 5, 5);
 	width: 45%;
-	height: %;
-	margin:1% 5% 0 0;
+
+	/* margin:1% 5% 0 0; */
 	padding:1% 2% 0 2%;
 }
 .productType button{
@@ -126,9 +127,10 @@ section.mainBody{
 }
 .endOfBody{
 	display:flex;
-	justify-content: space-between;
-	width: 92%;
-	margin: 3% 0 1% 0%;
+	justify-content: space-around;
+	width: 100%;
+	margin-top:3%;
+	
 }
 .serviceFacts{
 	width:50%;
@@ -144,6 +146,7 @@ section.mainBody{
 footer{
 	display: flex;
 	justify-content: center;
+	margin-top: 3%;
 }
 p{
 	line-height: 1.5;
