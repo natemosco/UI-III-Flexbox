@@ -87,12 +87,10 @@ header{
 .logo{
 	justify-content: flex-end;
 }
-.banner{
-	display:flex;
-	justify-content: space-around;
-
+.banner div img{
+	width:95%;
 }
-/* section.topPage{
+section.topPage{
 	display:flex;
 	justify-content: flex-start; 
 	flex-wrap: wrap;
@@ -102,12 +100,12 @@ header{
 }
 .topPage h1{
 	font-size: 20px;
-} */
+}
 section.mainBody{
 	display: flex;
 	justify-content: flex-start;
 	flex-wrap: wrap;
-	/* align-content: center; */
+	align-content: center;
 	
 
 }
