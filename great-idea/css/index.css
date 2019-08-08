@@ -109,19 +109,25 @@ section.mainBody{
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 	padding: 1% 0 2% 0;
-	width:95%;
+	width:100%;
 }
 .productType{
-	background-color: rgba(250, 235, 215, 0.892);
+	background-color: rgba(233, 229, 223, 0.933);
 	border: 2px solid rgb(19, 5, 5);
 	width: 45%;
+	height: %;
 	margin:1% 5% 0 0;
-	padding:1%;
+	padding:1% 2% 0 2%;
+}
+.productType button{
+	padding:2%;
+	width:40%;
+	margin:1% 0 2% 0;
 }
 .endOfBody{
 	display:flex;
 	justify-content: space-between;
-	width: 95%;
+	width: 92%;
 	margin: 3% 0 1% 0%;
 }
 .serviceFacts{
@@ -130,6 +136,10 @@ section.mainBody{
 .endOfBody ul{
 	padding: 4% 0 0 3%;
 	list-style-type: square;
+}
+.endOfBody img{
+	height: 100%;
+	
 }
 footer{
 	display: flex;
